@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FavReads</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="relative h-screen bg-gray-800 text-white">
+<body class="relative h-screen bg-gray-800 text-white ">
     <!-- Background Pattern & Gradient -->
-    <div class="absolute inset-0">
+    <div class="absolute inset-0 ">
       <!-- Dark Transparent Overlay -->
       <div class="fixed inset-0 -z-10 bg-black opacity-80"></div>
 
@@ -27,20 +29,20 @@
           class="text-8xl font-bold text-white uppercase mr-20 ml-20 font-[Honda]"
         >
           <span class="font-[Calvino] normal-case text-[#ECDFCC]">Which</span>
-          book do
+          <span class="text-green-400">book do</span>
           <span class="font-[Calvino] normal-case text-[#ECDFCC]">you</span>
         </h1>
         <h1
           class="text-8xl font-bold text-white uppercase mr-20 ml-20 font-[Honda]"
         >
           want
-          <span class="font-[Calvino] normal-case text-[#ECDFCC]">to</span>
+          <span class="font-[Calvino] normal-case text-[#ECDFCC] text-red-400">to</span>
           read<span class="font-[Calvino] normal-case text-[#ECDFCC]">?</span>
         </h1>
         <div class="grid mr-5 ml-5 mt-0 grid-cols-1 md:grid-cols-3 gap-4">
           <div class="flex items-center justify-center min-h-[180px]">
             <div
-              class="size-full w-[140px] bg-[#f6cd19] flex items-center justify-center rounded-md shadow-[0_0_8px_#f6cd19]" 
+              class="size-full w-[140px] bg-[#ffffff] flex items-center justify-center rounded-md shadow-[0_0_8px_#f6cd19]" 
               id="img-yellow"
             >
             </div>
@@ -125,6 +127,7 @@
         </div>
       </div>
     </div>
+   <script src="https://cdn.jsdelivr.net/npm/animejs/lib/anime.iife.min.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
